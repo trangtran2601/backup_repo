@@ -1,0 +1,63 @@
+/* modile & tablet */
+
+@media (max-width: 1023px){
+    .hide-on-tablet-mobile{
+        display: none;
+    }
+    .my-expertise__item--main{
+        margin-top: 0;
+    }
+
+    .my-expertise__list .row{
+        row-gap: 24px;
+    }
+
+    .experience__desc {
+        margin-top: 20px;
+    }
+
+    .section__separate{
+        left: -32px;
+    }
+
+    .experience__list-point{
+        left: -47px;
+    }
+
+}
+
+
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+}
+
+
+/* mobile */
+
+@media (max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+
+    .about-me__detail{
+        text-align: center;
+    }
+
+    .experience__detail{
+        text-align: center;
+    }
+    .experience__item{
+        text-align: justify;
+    }
+}
+
+
+@media (min-width: 1024px){
+    .header__sidebar{
+        display: none;
+    }
+}
